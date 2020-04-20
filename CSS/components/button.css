@@ -1,0 +1,96 @@
+.btn-red-small {
+	
+	background-color: #e50914;
+	padding: 7px 17px;
+	margin-top: 22px;
+	position: absolute;
+	right: 5%;
+	border-radius: 4px;
+	color: white;
+	font-weight: bold;
+	font-family: "NetflixSans_W_Rg.woff2", sans-serif;
+	height: 20px;
+	margin-left: 0px;
+	font-weight: 400;
+	font-size: 1rem;
+	float: right;
+}
+
+.btn-red:hover {
+  text-decoration: none;
+  color:white;
+}
+
+.btn-red strong {
+  padding-top: 0px;
+}
+
+.btn-red {
+align-items:flex-start;
+background-color:rgb(229, 9, 20);
+background-image:linear-gradient(rgb(229, 9, 20), rgb(219, 5, 16));
+border-bottom-color:rgb(229, 9, 20);
+border-bottom-left-radius:0px;
+border-bottom-right-radius:2px;
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-image-outset:0px;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-width:1;
+border-left-color:rgb(229, 9, 20);
+border-left-style:solid;
+border-left-width:1px;
+border-right-color:rgb(229, 9, 20);
+border-right-style:solid;
+border-right-width:1px;
+border-top-color:rgb(229, 9, 20);
+border-top-left-radius:0px;
+border-top-right-radius:2px;
+border-top-style:solid;
+border-top-width:1px;
+box-shadow:rgba(0, 0, 0, 0.45) 0px 1px 0px 0px;
+box-sizing:border-box;
+color:rgb(255, 255, 255);
+cursor:pointer;
+direction:ltr;
+display:inline-block;
+font-size:17px;
+font-stretch:100%;
+font-style:normal;
+font-weight:400;
+height:44px;
+letter-spacing:0.1px;
+line-height:normal;
+margin-bottom:8px;
+margin-top:6px;
+overflow-x:visible;
+overflow-y:visible;
+padding: 12px 5px;
+position:relative;
+text-align:center;
+text-decoration-color:rgb(255, 255, 255);
+text-decoration-line:none;
+text-decoration-style:solid;
+text-indent:0px;
+text-rendering:auto;
+text-shadow:none;
+text-size-adjust:100%;
+text-transform:none;
+user-select:none;
+vertical-align:middle;
+width:150px;
+height: 46px;
+}
+
+.btn-red-small:hover {
+	text-decoration: none;
+}
+
+/*RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 549px) and (min-width: 400px), only screen and (max-width: 399px) and (min-width: 350px), only screen and (max-width: 349px){
+.btn-red-small {
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+}

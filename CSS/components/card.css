@@ -1,0 +1,166 @@
+.cards1 {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 400px;
+}
+
+.card1 {
+	flex-grow: 1;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: transparent;
+}
+
+.card-black {
+	background: black;
+	border-top: 9px solid #212121;
+	color: white;
+	padding-top: 20px;
+	letter-spacing: 0.15rem;
+}
+
+.card-black h1 {
+	font-size: 50px;
+	font-weight: 700;
+	padding-top: 60px;
+	padding-bottom: 50px;
+	margin-left: 40px;
+}
+
+.card-black h2 {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	margin-left: 40px;
+}
+
+.card-black img {
+	height: 400px;
+	width: 600px;
+	padding-top: 0px;
+}
+
+.card-black a {
+	color: white;
+}
+
+.card-black a:hover {
+	color: white;
+}
+
+
+
+#wht-padding {
+	margin-left: 0px;
+
+}
+
+
+.card-FAQ {
+	background: black;
+	border-top: 9px solid #212121;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	letter-spacing: 0.15rem;
+}
+
+
+
+.card-footer1 {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "NetflixSans_W_Rg.woff2", sans-serif;
+}
+
+.card-footer2 {
+	flex-grow:1;
+	flex-wrap: wrap;
+	align-items: center;
+	display:flex;
+	background: black;
+	width: 60px;
+	font-size: 13px;
+	padding-bottom: 70px;
+	font-weight: lighter;
+	
+
+}
+
+.card-footer2 a:hover {
+	text-decoration: underline;
+}
+
+
+
+.card-footer2 ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.card-footer2 li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10%;
+    width: 160px;
+    margin-right: 0.5%;
+    padding-left: 0;
+	margin-top:5px;
+    margin-left: 0;
+}
+
+
+.footer {
+	background: black;
+	border-top: 9px solid #212121;
+	color: white;
+	
+	padding-top: 20px;
+	padding-top: 100px;
+}
+
+#font-bold {
+	color: #757575;
+	font-weight: 500;
+}
+
+
+.footer a {
+	color: #757575;
+}
+
+.footer a:hover {
+	color: #757575;
+}
+
+#box-lang
+{
+    border: 1px solid #222;
+    border-radius: 2px;
+    width: 138px; height:50px;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+#box-lang select
+{
+  background-color: black;
+  border: 0px;
+  color: #b3b3b3;
+}
+
+#box-lang i
+{
+	color: rgb(153, 153, 153);
+	margin: 14px 12px 10px 14px;
+}
+
+#Netflix-France {
+	font-size: 15px;
+	color: #757575;
+	padding-bottom: 20px;
+
+}
